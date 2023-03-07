@@ -1,0 +1,38 @@
+.MM_column {
+    float: left;
+    width: 50%;
+}
+
+.MM_row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p {
+    text-indent: 5%;
+}
+
+.MM_row {
+    padding: 0 0 0 10%;
+}
+
+#MM_Paragraph_1 {
+    text-align: justify;
+    width: 75%;
+}
+
+#MM_Paragraph_2 {
+    text-align: justify;
+    width: 75%;
+}
+
+ul {
+    text-indent: 20%;
+    content: "—";
+}
+
+.MM_Photos {
+    width: 40%;
+    height: 40%;
+}

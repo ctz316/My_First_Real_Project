@@ -1,0 +1,19 @@
+.WE_container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+img {
+    max-width: 5%;
+    float: left;
+    padding: 0 0 0 20%;
+}
+
+.WE_image {
+    flex-basis: 40%
+}
+
+#WE_Paragraph {
+    padding: 5px 20% 20% 20%;
+}

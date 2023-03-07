@@ -1,0 +1,163 @@
+.column {
+    float: right;
+    width: 33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/************ BoA page ************/
+.BoA_column {
+    float: Right;
+    width: 40%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    padding-right: 10%;
+}
+
+.BoA_row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.BoA_Image {
+    max-width: 50%;
+    height: auto;
+}
+/************ BoA page ************/
+img {
+    width: 500px;
+    height: 300px;
+}
+
+p {
+    text-indent: 5%;
+}
+
+.row {
+    padding: 5% 5% 5% 5%;
+}
+
+.Paragraph {
+    text-align: justify;
+    width: 75%;
+}
+
+hr {
+    size: 2px;
+    width: auto;
+    border-color: darkgoldenrod;
+}
+
+h1 {
+    font-style: italic;
+    font-size: xx-large;
+}
+
+.Bold {
+    text-align: left;
+    margin-left: 2em;
+    text-indent: -2em;
+}
+
+.Bold:before {
+    content:"\00bb   ";
+}
+
+#Text {
+    font-size: larger;
+}
+
+/****   Slide Show Options ****/
+.slider {
+    position: relative;
+    width: 350px;
+    margin: 5px auto;
+    perspective: 1000px;
+    padding-top: 100px;
+}
+
+.rotator {
+    position: absolute;
+    left: 100px;
+    right: 0;
+    margin: auto;
+    width: 55%;
+    height: 100px;
+    transform-style: preserve-3d;
+    animation: roter 40s linear infinite;
+}
+
+.items {
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    overflow: hidden;
+    border: 2px solid white;
+}
+
+.items img {
+    height: 100%;
+    width: 100%;
+    transition: all 3s ease;
+}
+
+.items:hover img {
+    transform: scale(1.1);
+}
+
+@keyframes roter {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.items:first-child {
+    transform: rotateY(calc(40deg)) translateZ(300px);
+}
+
+.items:nth-child(2) {
+    transform: rotateY(calc(80deg)) translateZ(300px);
+}
+
+.items:nth-child(3) {
+    transform: rotateY(calc(120deg)) translateZ(300px);
+}
+
+.items:nth-child(4) {
+    transform: rotateY(calc(160deg)) translateZ(300px);
+}
+
+
+.items:nth-child(5) {
+    transform: rotateY(calc(200deg)) translateZ(300px);
+}
+
+.items:nth-child(6) {
+    transform: rotateY(calc(240deg)) translateZ(300px);
+}
+
+.items:nth-child(7) {
+    transform: rotateY(calc(280deg)) translateZ(300px);
+}
+
+
+.items:nth-child(8) {
+    transform: rotateY(calc(320deg)) translateZ(300px);
+}
+
+
+.items:nth-child(9) {
+    transform: rotateY(calc(360deg)) translateZ(300px);
+}
+
+.rotator:hover {
+    animation-play-state: paused;
+}
+/****   Slide Show Options ****/

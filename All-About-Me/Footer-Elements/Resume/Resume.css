@@ -1,0 +1,57 @@
+.Resume {
+    padding: 0  10% 10% 10%;
+    text-align: left;
+}
+
+.Quote {
+    text-align: center;
+    font-size: large;
+}
+
+.Work {
+    text-shadow: 2px 2px 2px black;
+    font-size: X-large;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.Company_Name {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+li {
+    /*text-align: justify;*/
+    padding-left: 40px;
+}
+
+hr {
+    height: 1px;
+    background-color: goldenrod;
+    border: none;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row a {
+    display: flex;
+    flex: 1;
+}
+
+.column {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+    flex: 1;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+}
